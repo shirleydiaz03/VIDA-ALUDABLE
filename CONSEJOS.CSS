@@ -1,0 +1,22 @@
+h1{text-align: center;
+    font-family:cursive;
+    color:coral;}
+        
+p{font-family: cursive;
+    font-size: 16px;}
+ 
+div{ font-family: cursive;
+    font-size: 16px;
+    color:firebrick;}
+
+li{font-family:cursive;
+    font-size: 16px;
+    color:black;}
+
+img { width: 350px; height:210px;
+      border: 2px solid #1B2631;
+      position: relative; 
+      left: 300px;} 
+
+
+

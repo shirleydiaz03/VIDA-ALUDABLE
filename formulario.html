@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>PAGINA WEB </title>
+	<link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+   
+
+  <!-- formulario en html y css -->  
+    
+        <form action="submeter-formulario.php" method="post">  
+    <div class="contact_form">
+ <h1><center>Formulario <center> </h1>
+<!-- Create Form -->
+    <form id="form">
+ 
+<!-- Details -->
+<div class="form-control"><label for="name" id="label-name"> Nombre: </label>
+ 
+<!-- Input Type Text -->
+<input type="text"id="name" placeholder="Escribe tu nombre" /></div>
+  
+<div class="form-control">
+<label for="Apllido" id="label-apellido">Apellido:</label>
+ 
+<!-- Input Type Email-->
+<input type="apellido"id="apellido"placeholder="Escribe tu apellido" /></div>
+        
+<div class="form-control">
+<label for="ciudad">Ciudad:</label>
+<!-- Dropdown options -->         
+<div>
+    <select name="ciudad">
+        <option>Machala</option>
+        <option>Manta</option>
+        <option>Guayaquil</option>
+        <option>Cuenca</option>
+        <option>Zaruma</option>
+        <option>Huaquillas</option>
+        <option>Ambato</option>
+    <option selected="selected">Selecciona ciudad...</option>
+    </select>
+   </div><br> 
+            
+<div class="form-control">
+<!-- Input Type Radio Button -->
+<label> Edad: </label>
+<label for="1"><input type="radio" name="estacion value"= Menor/> Menor </input></label>
+<label for="2"><input type="radio" name="estacion value"= Adulto> Adulto</input></label>
+</div}> 
+
+<div class="form-control">
+<label> Sexo: </label>
+<!-- Input Type Radio Button -->
+<label for="1"><input type="radio" name="estacion value"=hombre/> Masculino </input></label>
+<label for="2"><input type="radio" name="estacion value"=Femenino/> Femenino</input></label>
+
+
+<div class="form-control">
+<label> ¿Te gusto la página? </label>
+            
+<!-- Input Type Radio Button -->
+<label for="1">  <input type="radio" name="estacion value"=Si/> Si </input></label>
+<label for="2">  <input type="radio" name="estacion value"=No/> No </input></label>
+
+                 
+  <p>
+    <label for="¿Qué te pareció nuestra página web?">¿Qué te pareció nuestra página web?</label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>  
+
+   <p>
+            <label for="¿Qué le añadirías o quitarías a la página web?">¿Qué le añadirías o quitarías a la página web?
+            </label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>  
+                 
+    <p>                    
+    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+  </p>
+
+</body>
+</html>

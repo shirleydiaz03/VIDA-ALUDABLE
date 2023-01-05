@@ -1,0 +1,29 @@
+h1 {font-family:cursive;
+    color:dimgrey; font-size:40px;}
+
+p { font-family:cursive;
+    font-size: 15px;}
+
+div{ color:brown;
+    font-family: cursive;
+    font-size: 17px;}
+
+ul{font-family: cursive;
+   font-size: 15px;
+   color:darkblue; }
+
+.diaz_img {float: right;
+    animation: movimiento 2.5s linear infinite;
+        display: block;}
+
+.diaz_img img{width: 190px;
+             height: 150px;
+             display:block;}
+            
+
+@keyframes movimiento { 0%{transform: translateY(0);}
+    50%{transform: translateY(10px);}
+    100%{transform: translateY(0);}
+
+
+

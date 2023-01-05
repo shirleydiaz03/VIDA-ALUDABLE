@@ -1,0 +1,23 @@
+h1 	{font-family:cursive;
+    font-size:35px;
+    color:brown;}
+
+p { font-weight: bold;}
+
+p {font-family: cursive;
+    font-size: 18px;}
+
+div { font-family: cursive;
+    font-size: 15px;}
+
+ul{font-family: cursive;
+    font-size: 15px;}
+
+img {width: 250px; height: 200px;
+     position:fixed;
+     top: 260px;
+     left: 850px; 
+     border: 5px solid #8E44AD }
+
+ 
+
